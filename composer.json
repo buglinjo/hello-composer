@@ -3,7 +3,6 @@
     "description": "My first Composer project",
     "license": "MIT",
     "homepage": "https://github.com/buglinjo/hello-composer",
-    "version": "0.0.1",
     "authors": [
         {
             "name": "Irakli Tchitadze",
