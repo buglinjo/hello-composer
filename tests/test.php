@@ -2,6 +2,6 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use HelloComposer\Hello;
+//use Buglinjo\HelloComposer\Hello;
 
-echo Hello::world();
+echo Buglinjo\HelloComposer\Hello::world();

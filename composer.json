@@ -1,9 +1,7 @@
 {
     "name": "buglinjo/hello-composer",
-    "description": "My first Composer project",
+    "description": "My first Composer package",
     "license": "MIT",
-    "homepage": "https://github.com/buglinjo/hello-composer",
-    "version": "1.0.0",
     "authors": [
         {
             "name": "Irakli Tchitadze",
@@ -11,11 +9,14 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.5.0"
     },
     "autoload": {
         "psr-0": {
-            "HelloComposer": "src/"
+            "Buglinjo\\HelloComposer\\": "src/"
+        },
+        "psr-4": {
+            "Buglinjo\\HelloComposer\\": "src/Buglinjo/HelloController/"
         }
     }
 }

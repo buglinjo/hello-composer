@@ -1,6 +1,6 @@
 <?php
 
-namespace HelloComposer;
+namespace Buglinjo\HelloComposer;
 
 class Hello {
 
