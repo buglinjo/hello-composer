@@ -2,6 +2,7 @@
     "name": "buglinjo/hello-composer",
     "description": "My first Composer package",
     "license": "MIT",
+    "version": "v1.0.1",
     "authors": [
         {
             "name": "Irakli Tchitadze",
